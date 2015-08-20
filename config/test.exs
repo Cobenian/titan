@@ -15,7 +15,7 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :titan, Titan.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "titan_test",
+  username: "runner",
+  password: "semaphoredb",
+  database: "test_db",
   pool: Ecto.Adapters.SQL.Sandbox
